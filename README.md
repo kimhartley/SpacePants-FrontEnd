@@ -4,9 +4,9 @@ A fun game for fun alien-.... humans!  I meant humans.
 ## The game
 You are an alien who has recently arrived on planet Earth.  Our species looks nothing like humans, but fortunately a new technology has been developed to help you seamlessly blend in: SpacePants!  In disguise, you will be safe from the humans as long as you behave just like them. Luckily, you have a certified huminologist back on your ship, who is sending helpful 'behaviour directives' to your communication device.  Make sure to complete as many directives as you can before the time runs out.  But be careful, if the humans suspect anything is awry, they may vote to kick you off the planet!
 
-The goal of the alien is to complete as many tasks as possible in a time frame.  The more tasks they complete, the more points they earn.  If they get spotted they receive no points.
+The goal of the alien is to complete as many tasks as possible in a time frame.  With each task completed, the remaining time decreases
 
-The goal of the humans is to identify the alien.  They win on a sucessful vote.
+The goal of the humans is to identify the alien before time runs out.  They win on a sucessful vote.
 
 ## The Tech
 
@@ -33,8 +33,8 @@ The goal of the humans is to identify the alien.  They win on a sucessful vote.
 
 #### Humans
 - [ ] At random intervals, each human will receive a broadcase containing information about the alien.  This information may or may not be relevant
-- [ ] At any point a human may hit a vote button.  This will pause the timer.  They will then accuse another player
-- [ ] After a discussion, all other humans will select agree or disagree on their own device.  If it passes, the game ends.  If not, the time continues.
+- [ ] At any point a human (or an alien trying to blend in) may hit a vote button.  This will pause the timer.  They will then accuse another player
+- [ ] After a discussion, all other humans will select agree or disagree on their own device.  If it passes, the game ends.  If not, the time continues.  Each player can only call a vote once.
 
 ### Stretch
 
@@ -103,6 +103,7 @@ Will figure this out when we understand how socket.io works
 | Column Name | Data Type |
 | --- | --- |
 | id | increments |
+| taskCategory | string |
 | task | string |
 | hint | string |
 
