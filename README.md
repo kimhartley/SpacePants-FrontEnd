@@ -40,6 +40,7 @@ The goal of the humans is to identify the alien.  They win on a sucessful vote.
 
 - [ ] A sweet design
 - [ ] A scoreboard for the current session
+- [ ] Make available as a PWA
 
 ---
 
