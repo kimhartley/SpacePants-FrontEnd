@@ -1,4 +1,4 @@
-# Space_Pants
+# SpacePants
 A fun game for fun alien-.... people!  I meant people.
 
 ## The game
