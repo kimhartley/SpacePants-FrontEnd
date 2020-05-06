@@ -74,7 +74,7 @@ This might change when we figure out how socket.io works
 
 | Type | Data | Purpose |
 | --- | --- | --- |
-| RECIEVE_USERS | users | Returns array of users |
+| RECEIVE_USERS | users | Returns array of users |
 | ADD_USER | User | Add new user to redux |
 
 ### Tasks
